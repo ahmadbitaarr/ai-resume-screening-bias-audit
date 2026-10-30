@@ -1,0 +1,46 @@
+{
+  "input": "/mnt/data/resume_bias_capstone/results/offline_evaluation_raw.csv",
+  "metrics": {
+    "named": {
+      "n_pairs": 8,
+      "mean_absolute_name_gap": 0.0,
+      "bootstrap_95pct_interval": [
+        0.0,
+        0.0
+      ],
+      "mean_female_minus_male": 0.0,
+      "mean_yes_rate_difference": 0,
+      "pairs_with_recommendation_difference": 0
+    },
+    "anonymized": {
+      "n_pairs": 8,
+      "mean_absolute_name_gap": 0.0,
+      "bootstrap_95pct_interval": [
+        0.0,
+        0.0
+      ],
+      "mean_female_minus_male": 0.0,
+      "mean_yes_rate_difference": 0,
+      "pairs_with_recommendation_difference": 0
+    },
+    "skills_removed": {
+      "n_pairs": 8,
+      "mean_absolute_name_gap": 0.0,
+      "bootstrap_95pct_interval": [
+        0.0,
+        0.0
+      ],
+      "mean_female_minus_male": 0.0,
+      "mean_yes_rate_difference": 0,
+      "pairs_with_recommendation_difference": 0
+    },
+    "qualification_stress": {
+      "n_comparisons": 48,
+      "fraction_scores_not_higher_after_skills_removed": 1.0
+    },
+    "anonymization_score_change": {
+      "n_comparisons": 48,
+      "mean_anonymized_minus_named": 0.0
+    }
+  }
+}

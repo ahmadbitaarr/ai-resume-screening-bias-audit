@@ -1,0 +1,13 @@
+{
+  "backend": "offline",
+  "model": "offline-keyword-heuristic",
+  "temperature": null,
+  "seed": 42,
+  "repeats": 3,
+  "split": "evaluation",
+  "stress": true,
+  "number_resumes": 16,
+  "number_matched_pairs": 8,
+  "dataset_sha256": "0c32a8c476794767ab7d04050fa66d2a09aa264de17d476d8dd67a2aaa14a6ff",
+  "IMPORTANT": "Offline backend results are NOT LLM results."
+}
